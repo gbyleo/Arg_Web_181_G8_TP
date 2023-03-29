@@ -2,9 +2,13 @@
     margin:0;
     padding: 0;
 }
+
+body{
+    min-height: 90vh; /*me ocupa todo el viewport y mas tambien porque tengo margenes por defecto, entonces tengo que poner margin=0 y padding=0*/
+}
+
 .caja-container{
     background-color: rgb(185, 80, 209);
-    min-height: 85vh; /*me ocupa todo el viewport y mas tambien porque tengo margenes por defecto, entonces tengo que poner margin=0 y padding=0*/
     display:flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
@@ -50,6 +54,7 @@ color:white;
 }
 
 header{
+    min-height: 5vh;
     display: flex;
     flex-direction: row;/* por defecto si uno no escrbiera nada de flex estaria por defecto en direction column, es decir uno abajo del otro */
     /* PERO AL COLOCAR display:flex la direccion que toma es = a row,o sea que felx direction es innecesario cuando coloco display : flex.
@@ -126,6 +131,7 @@ gap: 30px;
 
 
 footer{
+    min-height: 5vh;
     display: flex;
     color: white;
     align-items: center; /* me centra todos los elementos en el medio, siendo que display=flex lo que alinea son los elementos enel "eje Y" */
