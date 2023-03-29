@@ -1,0 +1,145 @@
+*{
+    margin:0;
+    padding: 0;
+}
+.caja-container{
+    background-color: rgb(185, 80, 209);
+    min-height: 85vh; /*me ocupa todo el viewport y mas tambien porque tengo margenes por defecto, entonces tengo que poner margin=0 y padding=0*/
+    display:flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+
+    
+
+}
+
+
+.caja{
+    background-color: rgb(185, 220, 220);
+    border:1px solid red;
+    width: 200px;
+    height: 200px;
+    border:solid 1px;
+    margin:30px;
+    border-radius: 100%;
+}
+
+.caja1{
+   
+}
+.caja2{
+    
+}
+.caja3{
+    
+}
+.caja4{
+  
+}
+.caja5{
+    
+}
+.caja6{
+   
+}
+
+
+h2{
+color:white;
+
+}
+
+header{
+    display: flex;
+    flex-direction: row;/* por defecto si uno no escrbiera nada de flex estaria por defecto en direction column, es decir uno abajo del otro */
+    /* PERO AL COLOCAR display:flex la direccion que toma es = a row,o sea que felx direction es innecesario cuando coloco display : flex.
+    COMO ASI TAMBIEN sino coloco display:flex los elementos van uno a bajo de otro y seira innecesario order a direction :column */
+    color: white;
+    align-items: center; /* me centra todos los elementos en el medio, siendo que display=flex lo que alinea son los elementos enel "eje Y" */
+    justify-content: space-between; /* el espacio es maximo entre los elementos, pero sin espacio en bordes */
+    background-color: blue;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 150px;
+    padding-right: 150px;
+}
+
+
+a{
+    color: white;
+    text-decoration: none; /* le saco el subrayado a los hipervinculos que ya viene por defecto en el elemento a del css original que no se ve, porque es por defecto justamnente:letra en azul y subrayado */
+    background-color: #0088ff;
+    border-radius: 25%;
+    width: 100px;
+   justify-items: center;
+}
+
+
+nav{
+display: flex;
+gap: 30px; 
+
+}
+
+
+@keyframes de_izq_a_der{
+    0%{
+        transform: translateX(-500px);
+    }
+    100%{
+        transform:translateX(0px);
+    }
+}
+
+
+
+/* .caja{
+    animation-name:de_izq_a_der;
+    animation-duration: 2000ms;
+    width: 400px;
+    height: 400px;
+    background-color: darkorange;
+    border: 5px gold solid;
+    border-radius: 10px;
+    margin-left: 30px;
+    padding: 50px;
+    margin-top: 30px;
+}
+ */
+
+.caja:hover{
+    transition: 1s ease-in;
+    background-color: blue;
+    transform:scale(1.1);
+    
+}
+
+.bi-x-diamond{
+    font-size: 50px;
+    
+}
+
+/* ver pagina https://codepen.io/enxaneta/full/adLPwv/  para practicar css*/
+
+
+
+
+
+footer{
+    display: flex;
+    color: white;
+    align-items: center; /* me centra todos los elementos en el medio, siendo que display=flex lo que alinea son los elementos enel "eje Y" */
+    justify-content: space-between; /* el espacio es maximo entre los elementos, pero sin espacio en bordes */
+    background-color: blue;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 150px;
+    padding-right: 150px;
+}
+
+
+#footer_redes{
+display: flex;
+gap: 30px;
+margin: 10px 20px;
+}
