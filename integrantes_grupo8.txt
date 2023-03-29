@@ -1,13 +1,20 @@
 181 - Grupo 8
 
 MAXIMILIANO EMMANUEL LUCARDI GIMENEZ (maxilucardi@hotmail.com)
+Desarrollo de boton Planes
 
 FACUNDO AMADEO MERCADO GATICA (facundomercado87@gmail.com)
+Desarollo de boton Contacto
 
 ESTEBAN ORELLANO (enorellano@gmail.com)
+Desarrollo de boton "la empresa"
 
 PAOLA ROMERO (paoli.romero@outlook.com)
+Desarrollo de boton Inicio
 
 LEONARDO SEIVETTI (leogs22@gmail.com)
+(Desarrollo de boton Nosotros)--> + Desarrollo de Nav y el footer
 
+-------------------------------
 MARTIN MIGUEL SOZA (martin.fenix.00@gmail.com)
+-------------------------------
