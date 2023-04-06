@@ -3,37 +3,68 @@
     padding: 0;
     box-sizing: border-box;
     /* font-family: 'Golos Text', sans-serif; */
-    font-family: 'Roboto Condensed', sans-serif;    
+    font-family: 'Roboto Condensed', sans-serif; 
 }
+
+
+
+
+
+body{
+    background-color: rgb(185, 80, 209);
+}
+
 
 main{
     height: 80vh; /*me ocupa todo el viewport y mas tambien porque tengo margenes por defecto, entonces tengo que poner margin=0 y padding=0*/
     }
 
-    
 h1{
     text-align: center;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size:4vh;
+    justify-content: center;
+    margin-top: 1vh;
+    height: 5vh;
 }
 
 .caja-container{
-    background-color: rgb(185, 80, 209);
+    background-color: rgb(184, 50, 184);
     display:flex;
     justify-content: space-evenly;
+    align-items: center;
+    padding: 1vh;
+    height: 75vh;
+/*     height: 2vh; */
    /*  flex-wrap: wrap; */
-
 }
+
+/*    .caja-container-izq{
+    background-color: cadetblue;
+    margin-bottom: 1vh;
+
+   }
+
+   .caja-container-der{
+    background-color: cadetblue;
+
+   } */
+
+
 
 .integrante{
     
     display: flex;
     flex-direction: row;
-    background-color: grey;
-    box-shadow: 0px 2px 14px 16px rgba(219,199,219,1);
+    background-color: rgb(144, 144, 144);
+    box-shadow: 5px 5px 40px rgb(210, 191, 210);;
     margin-top: 5vh;
-    height: 20vh;
+    margin-bottom: 5vh;
+    height: 16vh;
     width: 30vw;
     align-items: center;
     justify-content: space-evenly;
+    border-radius: 5px 20px;
 
     
     
@@ -42,7 +73,7 @@ h1{
 .figura{
     background-color: rgb(185, 220, 220);
     border: none;
-    width: 8vw;
+    width: 7vw;
     height: 15vh;
     border-radius: 100%;
     display: flex;
@@ -50,8 +81,8 @@ h1{
 
 .persona_descr{
     border: none;
-    background-color: #0088ff;
-    height: 15vh;
+    background-color: #bbbbbb;
+    height: 10vh;
     width: 15vw;
     display: flex;
     
@@ -172,6 +203,7 @@ footer{
     padding-bottom: 20px;
     padding-left: 150px;
     padding-right: 150px;
+    margin-top: 1vh;
 }
 
 
@@ -179,4 +211,18 @@ footer{
 display: flex;
 gap: 30px;
 /* margin: 10px 20px; */
+}
+
+.bi-figma{
+    height: 2vh;
+    width: 2.5vw;
+    margin: 0;
+    background-color: red;
+}
+
+footer a{
+    background-color: green;
+    height: 2.5vh;
+    width: 2.5vw;
+   
 }
