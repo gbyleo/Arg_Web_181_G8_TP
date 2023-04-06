@@ -1,33 +1,64 @@
 *{
     margin:0;
     padding: 0;
+    box-sizing: border-box;
+    /* font-family: 'Golos Text', sans-serif; */
+    font-family: 'Roboto Condensed', sans-serif;    
 }
 
-body{
-    min-height: 90vh; /*me ocupa todo el viewport y mas tambien porque tengo margenes por defecto, entonces tengo que poner margin=0 y padding=0*/
+main{
+    height: 80vh; /*me ocupa todo el viewport y mas tambien porque tengo margenes por defecto, entonces tengo que poner margin=0 y padding=0*/
+    }
+
+    
+h1{
+    text-align: center;
 }
 
 .caja-container{
     background-color: rgb(185, 80, 209);
     display:flex;
     justify-content: space-evenly;
-    flex-wrap: wrap;
+   /*  flex-wrap: wrap; */
+
+}
+
+.integrante{
+    
+    display: flex;
+    flex-direction: row;
+    background-color: grey;
+    box-shadow: 0px 2px 14px 16px rgba(219,199,219,1);
+    margin-top: 5vh;
+    height: 20vh;
+    width: 30vw;
+    align-items: center;
+    justify-content: space-evenly;
 
     
-
+    
 }
 
-
-.caja{
+.figura{
     background-color: rgb(185, 220, 220);
-    border:1px solid red;
-    width: 200px;
-    height: 200px;
-    border:solid 1px;
-    margin:30px;
+    border: none;
+    width: 8vw;
+    height: 15vh;
     border-radius: 100%;
+    display: flex;
 }
 
+.persona_descr{
+    border: none;
+    background-color: #0088ff;
+    height: 15vh;
+    width: 15vw;
+    display: flex;
+    
+}
+
+
+/* 
 .caja1{
    
 }
@@ -46,7 +77,7 @@ body{
 .caja6{
    
 }
-
+ */
 
 h2{
 color:white;
@@ -54,7 +85,7 @@ color:white;
 }
 
 header{
-    min-height: 5vh;
+    height: 10vh;
     display: flex;
     flex-direction: row;/* por defecto si uno no escrbiera nada de flex estaria por defecto en direction column, es decir uno abajo del otro */
     /* PERO AL COLOCAR display:flex la direccion que toma es = a row,o sea que felx direction es innecesario cuando coloco display : flex.
@@ -112,10 +143,10 @@ gap: 30px;
 }
  */
 
-.caja:hover{
+.figura:hover{
     transition: 1s ease-in;
     background-color: blue;
-    transform:scale(1.1);
+    transform:scale(1.0.8);
     
 }
 
@@ -131,7 +162,7 @@ gap: 30px;
 
 
 footer{
-    min-height: 5vh;
+    height: 10vh;
     display: flex;
     color: white;
     align-items: center; /* me centra todos los elementos en el medio, siendo que display=flex lo que alinea son los elementos enel "eje Y" */
@@ -147,5 +178,5 @@ footer{
 #footer_redes{
 display: flex;
 gap: 30px;
-margin: 10px 20px;
+/* margin: 10px 20px; */
 }
