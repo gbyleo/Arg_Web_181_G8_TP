@@ -83,8 +83,10 @@ h1{
     border: none;
     background-color: #bbbbbb;
     height: 10vh;
-    width: 15vw;
+    width: 18vw;
     display: flex;
+    border-radius: 0% 0% 25% 0%;
+    
     
 }
 
@@ -176,8 +178,18 @@ gap: 30px;
 
 .figura:hover{
     transition: 1s ease-in;
-    background-color: blue;
+    background-color: rgb(144, 144, 144);
     transform:scale(1.0.8);
+  
+}
+
+
+
+.persona_descr:hover{
+    transition: 0.5s ease-in;
+    background-color: rgb(144, 144, 144);
+    transform:scale(1.0.8);
+    color:white;
     
 }
 
