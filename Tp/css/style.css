@@ -1,0 +1,54 @@
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    background-color: #1728C3;
+    min-height: 100%vh;
+    margin: 20px;
+}
+.divinicio{
+    display: flex;
+    justify-content: space-evenly;
+}
+.divinicio1{
+    display: flex;
+    flex-direction: column;
+    color:white;
+    font-family: 'IM Fell English SC', serif;
+    font-weight: 200;
+    font-size: 20px;
+    line-height: 20px;
+    margin: 100px;
+}
+.pinicio1{
+    margin-top: 50px;
+    font-weight: 100;
+}
+.divinicio2{
+    display: flex;
+    flex-direction: column;
+    font-family: 'Homenaje', sans-serif;
+    color:white; 
+    text-align: center;
+    margin-right: 120px;   
+}
+h1{
+    font-size: 70px;
+}
+.divinicio3{
+    background-color: white;
+    border-radius: 2rem;
+    overflow: hidden;
+    padding: 10px;
+    width: 150px;
+    align-items: center;
+    font-weight: 900;
+    font-family: 'Kadwa', serif; 
+    color:#060606;   
+    margin: 100px;
+}
+img{
+    margin-top: 50px;
+    margin-right: 50px;
+}
