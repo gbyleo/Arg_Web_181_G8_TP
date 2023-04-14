@@ -1,0 +1,91 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto Condensed', sans-serif; 
+}
+
+header{
+    height: 10vh;
+    display: flex;
+    flex-direction: row;
+    color: white;
+    align-items: center;
+    justify-content: space-between;
+    background-color: blue;
+    padding: 3vh 5vw;
+}
+
+nav{
+display: flex;
+gap: 21px; 
+
+}
+
+.button-nav-laempresa{
+    padding: 8px 16px;
+    background-color: #3D71F5;
+    border: gray 0,5px solid;
+    border-radius: 40px;
+    color: #F3F3F3;
+}
+
+main{
+    background-color: blue;
+    height: 80vh;
+}
+
+.empresa{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 5vh 5vw;
+    text-align: center;
+    background-color: blue;
+}
+
+.la-empresa{
+    background-color: #F3F3F3;
+    width: 28vw;
+    border: none;
+    border-radius: 100px;
+    box-shadow: 5px 5px 5px 1px rgba(0, 0, 0, 0.2);
+}
+
+.img-container-laempresa{
+    border: 1px black solid;
+    border-radius: 100px;
+    box-shadow: 5px 5px 5px 1px rgba(0, 0, 0, 0.2);
+}
+
+footer{
+    height: 10vh;
+    display: flex;
+    color: white;
+    align-items: center; 
+    justify-content: space-between;
+    background-color: blue;
+    padding: 2vh 6vw
+    margin-top: 1vh;
+}
+
+
+#footer_redes{
+display: flex;
+gap: 30px;
+/* margin: 10px 20px; */
+}
+
+.bi-figma{
+    height: 2vh;
+    width: 2.5vw;
+    margin: 0;
+    background-color: red;
+}
+
+footer a{
+    background-color: white;
+    height: 2.5vh;
+    width: 2.5vw;
+   
+}
