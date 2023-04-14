@@ -1,0 +1,124 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #1728C3;
+    min-height: 80vh;
+}
+.imgHeaderInicio{
+    margin:0;
+    padding:0;
+
+}
+header {
+    height: 10vh;
+    display: flex;
+    flex-direction: row;
+    color: white;
+    align-items: center; 
+    justify-content: space-between;
+    background-color: #1728C3;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-top: 0px;
+    padding-bottom:0;
+    padding-left: 150px;
+    padding-right: 150px;
+}
+
+a{
+    color: white;
+    text-decoration: none; 
+    text-decoration: none;
+    background-color: #0088ff;
+    border-radius: 2rem;
+    width: 100px;
+    justify-items: center;
+    justify-items: center;
+    text-align: center;
+}
+
+nav{
+    display: flex;
+    gap: 30px; 
+    display:flex;
+    gap: 30px;
+}
+
+
+.divinicio{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 2%;
+}
+.divinicio1{
+    display: flex;
+    flex-direction: column;
+    color:white;
+    font-family: 'IM Fell English SC', serif;
+    font-weight: 200;
+    font-size: 20px;
+    line-height: 20px;
+    margin: 30px;
+}
+
+
+.divinicio2{
+    display: flex;
+    flex-direction: column;
+    font-family: 'Homenaje', sans-serif;
+    color:white; 
+    text-align: center;
+    margin-right: 120px;   
+}
+h1{
+    font-size: 70px;
+}
+.divinicio3{
+    background-color: white;
+    border-radius: 2rem;
+    overflow: hidden;
+    padding: 10px;
+    width: 150px;
+    align-items: center;
+    font-weight: 900;
+    font-family: 'Kadwa', serif; 
+    color:red;   
+    margin: 100px;
+    box-shadow: 0px 0px 3px #060606;
+    transition: all 300ms;
+}
+.divinicio3:hover{
+box-shadow: 0px 0px 3px #f1f1f1, 0px 4px 0px #f1f1f1 ;
+}
+
+img{
+    margin-top: 50px;
+    margin-right: 50px;
+}
+
+footer{
+    margin-top: 4%;
+    background-color: #1728C3;
+    height: 10vh;
+    color: white;
+    display: flex;
+    flex-direction: row;   
+    justify-content: space-around;
+}
+.iconos0{
+    display: flex;
+    flex-direction: column;
+}
+.iconos{
+    font-size: 30px;
+    color:#0088ff;
+    display: flex;
+    justify-content: space-evenly;
+}
+.pfooterinicio{
+    margin-left: 25%;
+}
+    

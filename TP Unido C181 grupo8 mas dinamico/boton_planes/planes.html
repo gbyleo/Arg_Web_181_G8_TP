@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/7107e6202f.js" crossorigin="anonymous"></script>
+    <script src="sweetalert2.min.js"></script>
+<link rel="stylesheet" href="sweetalert2.min.css">
+    <link rel="stylesheet" href="../estilos/styles.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+    <!-- estilos -->
+    <script src="https://kit.fontawesome.com/5ac9025f8a.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+    <!-- fin estilos -->
+
+    <!-- Fuentes de google -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@1,700&family=Roboto+Condensed&display=swap"
+        rel="stylesheet">
+    <!-- fin fuentes de google -->
+
+    <title>Document</title>
+</head>
+
+<body>
+    <!-- inicio cabecera -->
+    <header>
+        <a href=""><img class="imgHeaderInicio" src="./img/logoweb.jpg" alt="imagen logo de la empresa"></a>
+        <nav class="navheaderinicio">
+            <a href="../boton_laempresa/laempresa.html">La empresa</a>
+            <a href="../boton_nosotros/nosotros.html">Nosotros</a>
+            <a href="../boton_contacto/contacto.html">Contacto</a>
+            <a href="../boton_planes/planes.html">Planes</a>
+        </nav>
+        <button class="btn-menu">
+            <img src="Rectangle 17.svg" alt="logo FlexiRed">
+            <ul class="lista-menu">
+                <li><a href="../Tp/index.html">Inicio</a></li>
+                <li><a href="../boton_laempresa/laempresa.html">La empresa</a></li>
+                <li><a href="../boton_nosotros/nosotros.html">Nosotros</a></li>
+                <li><a href="../boton_contacto/contacto.html">Contacto</a></li>
+            </ul>
+        </button>
+    </header>
+    <!-- fin de cabecera -->
+    <!-- inicio contenido principal -->
+    <main id="mainPlanes">
+        <h1>NUESTROS PLANES</h1>
+        <div class="contenedorPlanes">
+            <div class="planes">
+                <div class="img_planes_caja1">
+                    <img src="./IMG/Teletrabajo.jpg"  alt="Teletrabajo">
+
+                </div>
+
+                <div class="img_planes_caja2">
+                    <img src="./IMG/images.jpg"  alt="hogar">
+
+                </div>
+
+                <div class="img_planes_caja3">
+                    <img src="IMG/Plan3.2.jpg"  alt="Gaming">
+
+                </div>
+                <div class="img_planes_caja4">
+                    <img src="IMG/plan4.jpg"  alt="Empresas">
+
+                </div>
+
+            </div>
+
+
+
+            <div class="formPlanes">
+                <h2>Diganos que plan eligio ud.</h2>
+                <form class="formUsuarios">
+                    <div class="inputContainer">
+                        <label for="nombre">Ingrese su nombre:</label>
+                        <input type="text" id="nombre" name="nombre" placeholder="Ingrese su nombre"required>
+                    </div>
+                    <div class="inputContainer">
+                        <label for="apellido">Ingrese su apellido:</label>
+                        <input type="text" id="apellido" name="apellido" placeholder="Ingrese su apellido" required>
+                    </div>
+                    <div class="inputContainer">
+                        <label for="email">Ingrese el mail:</label>
+                        <input type="text" id="email" name="email" placeholder="Ingrese su mail" required>
+                    </div>
+                    <div class="inputContainer">
+                        <label for="plan">elija su plan:</label>
+                        <select name="plan" id="plan">
+
+                            <option value="Teletrabajo">Teletrabajo</option>
+                            <option value="Hogar">Hogar</option>
+                            <option value="Gaming">Gaming</option>
+                            <option value="Empresas">Empresas</option>
+                        </select>
+                        <div class="inputContainer">
+                            <label for="dispositivo">¿Cuantos dispositivos tiene?</label>
+                            <select name="dispositivo" id="dispositivo">
+
+                                <option value="2">2</option>
+                                <option value="4">4</option>
+                                <option value="6">6</option>
+                                <option value="10">10</option>
+                            </select>
+                        </div>
+                        <input class="btn-respuesta" type="submit" value="Enviar respuesta">
+                </form>
+
+            </div>
+
+
+        </div>
+        <div id="contenedorUsuarios" class="contenedorUsuarios"></div>
+    </main>
+    <!-- fin contenido principal -->
+    <!-- inicio pie de pagina -->
+    <footer id="footer">
+        <section class="footerSeccionInicial">
+            <p> ¿Donde estamos?<br>  Av. San martin 887 Buenos Aires</p>
+        </section>
+        <section class="iconos0">
+            <div class="iconos">
+                <i class="fa-brands fa-square-twitter"></i>
+                <i class="fa-brands fa-square-whatsapp"></i>
+                <i class="fa-brands fa-facebook"></i>
+                <i class="fa-brands fa-square-instagram"></i>
+                <i class="fa-brands fa-linkedin"></i> 
+            </div>
+            <p class="pFooterInicio"> Copyright © 2023 Flexired</p>
+            <nav class="navFooterInicio">
+                <p>Aspectos legales | Políticas de privacidad | Seguridad</p>
+            </nav>
+        </section>
+        <section class="footerSeccionFinal">
+            <div>
+                <p>tel: 46587-8525<br>46587-8526<br>whatsapp: 1548683568</p>
+            </div>
+        </section>
+    </footer>
+    <!-- fin del footer -->
+    <script src="scriptplanes.js"></script>
+</body>
+
+</html>

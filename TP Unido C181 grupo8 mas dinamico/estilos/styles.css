@@ -1,0 +1,575 @@
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@500&family=Kanit&family=Shantell+Sans:ital,wght@1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;700&display=swap');
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+:root{
+    --azulFondo: #1728C3;
+}
+/*-------------------Header--------------------------------*/
+header {
+    height: 10vh;
+    display: flex;
+    color: white;
+    align-items: center; 
+    justify-content: space-between;
+    background-color: var(--azulFondo);
+    padding: 2vh 6vw;
+}
+header .imgHeaderInicio{
+
+    height: 8vh;
+}
+header nav{
+    display: flex;
+    gap: 30px; 
+}
+header nav a{
+    color: white;
+    text-decoration: none; 
+    background-color: #0088ff;
+    border-radius: 2rem;
+    width: 100px;
+    justify-items: center;
+    text-align: center;
+    transition: background-color 0.5s;
+}
+header nav a:hover{
+    background-color: #071275;
+}
+/*-------------------Fin Header--------------------------------*/
+main {
+    /*height: 80vh;*/
+    margin:0;
+    padding: 0;
+}
+/*-------------------Index-------------------------------------*/
+.divInicio{
+    background-color: var(--azulFondo);
+    display: flex;
+    justify-content: space-evenly;
+    height: 80vh;
+   /* margin-top: 2%;*/
+}
+.divInicio1{
+    display: flex;
+    flex-direction: column;
+    color:white;
+    font-family: 'IM Fell English SC', serif;
+    font-weight: 200;
+    font-size: 20px;
+    line-height: 20px;
+    margin: 100px 0px;
+}
+.divInicio2{
+    display: flex;
+    flex-direction: column;
+    font-family: 'Homenaje', sans-serif;
+    color:white; 
+    text-align: center;
+    margin-right: 120px;   
+}
+.divInicio2 h1{
+    font-size: 70px;
+}
+.divInicio3{
+    background-color: whitesmoke;
+    border-radius: 2rem;
+    /*overflow: hidden;*/
+    padding: 10px;
+    width: 200px;
+    align-items: center;
+    text-align: center;
+    font-weight: 900;
+    font-family: 'Kadwa', serif; 
+    color:#060606;   
+    margin: 100px;
+}
+.divInicio img{
+    margin-top: 50px;
+    margin-right: 50px;
+}
+/*-----------------------------Btn-Laempresa-----------------------------*/
+.empresa{
+    height: 80vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 5vh 5vw;
+    text-align: center;
+    background-color: blue;
+}
+
+.la-empresa{
+    background-color: #F3F3F3;
+    width: 28vw;
+    border: none;
+    border-radius: 100px;
+    box-shadow: 5px 5px 5px 1px rgba(0, 0, 0, 0.2);
+}
+
+.img-container-laempresa{
+    border: 1px black solid;
+    border-radius: 100px;
+    box-shadow: 5px 5px 5px 1px rgba(0, 0, 0, 0.2);
+}
+
+/*-----------------------------Btn-Nosotros------------------------------*/
+.divNosotros{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-family: 'Rubik', sans-serif; 
+    background-color: rgb(185, 80, 209);
+}
+#nosH1{
+    text-align: center;
+    font-family: 'Josefin Sans', sans-serif;
+    /*margin-top: 1vh;*/
+}
+#nosContenedorIntegr{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 100vw;
+    height: 75vh;
+    align-items: center;
+    padding: 1vh;
+}
+.nosCard {
+    display: flex;
+    background-color: rgb(209, 200, 200);
+    width: 35vw;
+    height: 20vh;
+    border-radius: 25% 0% 25% 0%;
+    justify-content: center;
+    margin: 5px;
+    font-family: 'Golos Text', sans-serif;
+}
+.nosContenedorInt {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+.nosCardIntegr{
+    padding: 10px;
+    background-color: rgb(209, 200, 200);
+    border-radius: 25% 0% 25% 0%;
+    width: 30vw;
+    align-items: center;
+    justify-content: center;
+    align-items: center;
+}
+.nosCardIntegr:hover{
+    transition: 1s ease-in;
+    transform: scale(1.0.8);
+    padding-top: 1vh;
+    margin-top: 3vh;
+    font-size: 2.5vh;
+}
+.nosCardIntegr p{
+    font-family: 'Rubik', sans-serif;
+}
+.nosCardImgIntegr{
+    width: 10vw;
+    background-color: green;
+    border-radius: 100%;
+}
+.nosCardImgIntegr img {
+    width: 10vw;
+    height: 100%;
+    background-color: rgb(209, 200, 200);
+    align-items: center;
+    justify-content: center;
+    border-radius: 25%;
+}
+/*-----------------------Btn-Contacto----------------------------*/
+.btn-menu{
+    display: none;
+    border-radius: 10px;
+}
+#logo img{
+    border-radius: 10px;
+}
+.contenedorContacto{
+    background-color: rgb(204, 250, 250);
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    height: 80vh;
+    align-items: center;
+}
+@keyframes de-izquierda-a-derecha{
+    0%{
+        transform: translateX(-500px);
+        opacity: 0;
+    }
+    100%{
+        transform: translateX(0px);
+        opacity: 1;
+    }
+}
+.anuncio{
+    background-color: rgb(23, 40, 195);
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    height: 40vh;
+    align-items: center;
+    width: 25%;
+    color: whitesmoke;
+    border-radius: 30px;
+    gap: 2vh;
+    padding: 1vw;
+    margin-right: 10vw;
+    animation-name: de-izquierda-a-derecha;
+    animation-duration: 2000ms;
+}
+.anuncio h2{
+    font-size: 5vh;
+}
+.anuncio p{
+    font-size: 3vh;
+    text-align: center;
+}
+.formulario{
+    background-color: white;
+    width: 25%;
+    height: 80%;
+    border-radius: 20px;
+    box-shadow: 0.5em 0 0.4em rgba(0, 0, 0, 0.2), -0.5em 0 0.4em rgba(0, 0, 0, 0.2);
+}
+.formulario .decoracion{
+    background-color: rgb(238, 246, 248);
+    height: 2vh;
+    margin-bottom: 1.5vh;
+    border-radius: 20px 20px 0 0;
+}
+.formContainer{
+    min-height: 57vh;/*equivale a 51.2 vh*/
+}
+.formulario .label{
+    margin: 0% 5%;
+    margin-bottom: 1%;
+    height: 10%;
+    color: rgb(137, 144, 146);
+    font-weight: bolder;
+    
+}
+.formulario .textBox{
+    margin: 0 5%;
+    margin-bottom: 5%;
+    border: 3px solid rgb(228, 232, 233);
+    height: 4vh;
+    padding: 0;
+}
+.textBox input[type=text], input[type=email]{
+    width: 100%;
+    height: 100%;
+    /*font-size: 4vh;*/
+}
+.textArea{
+    margin: 0 5%;
+    margin-bottom: 5%;
+    border: 3px solid rgb(228, 232, 233);
+    height: 20vh;
+}
+.textArea textarea{
+    width: 100%;
+    height: 100%;
+    resize: none;
+    overflow-y: scroll;
+}
+.formContainer input[type=submit]{
+    margin: 0 5%;
+    width: 30%;
+    height: 4vh;
+    font-family: 'Kanit', sans-serif;
+    font-size: 100%;
+    color: rgb(137, 144, 146);
+    background-color: rgb(223, 242, 245);
+    border: 3px solid rgb(228, 232, 233);
+    border-radius: 20% / 45%;
+    font-weight: bolder;
+    transition: background-color 1s;
+}
+.formContainer input[type=submit]:hover{
+    background-color: rgb(23, 40, 195);
+    color: whitesmoke;
+}
+.formulario .decoracionAbajo{
+    background-color: rgb(238, 246, 248);
+    height: 2vh;
+    margin-top: 1.5vh;
+    border-radius: 0 0 20px 20px;
+}
+/*-----------------------Btn-Planes------------------------------*/
+#mainPlanes {
+    font-family: "Open Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", Helvetica, Arial, sans-serif; 
+    background-color: #8d1c8f;
+
+    border: 1px solid transparent;
+    margin: auto;
+    min-height: 85vh;
+}
+#mainPlanes h1 {
+    font-size: 55px;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    color: #ffff;
+    padding: 1vw;
+}
+#contenedorPlanes {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    flex-direction: row;
+}
+.planes {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+}
+
+.img_planes_caja1 img {
+    width: 300px;
+    padding: 2vh;
+    border-radius: 30px 25px 30px 25px;
+}
+
+.img_planes_caja2 img {
+    width: 245px;
+    padding: 2vh;
+    border-radius: 30px 25px 30px 25px;
+}
+
+.img_planes_caja3 img {
+    width: 226px;
+    padding: 2vh;
+    border-radius: 30px 25px 30px 25px;
+}
+
+.img_planes_caja4 img {
+    width: 385px;
+    padding: 2vh;
+    border-radius: 30px 25px 30px 25px;
+}
+.formPlanes {
+    display: flex;
+    justify-content: space-around;
+
+    display: flex;
+    flex-wrap: wrap;
+
+    padding: 5vh;
+}
+.formPlanes h2 {
+    display: flex;
+    flex-wrap: wrap;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    font-size: 44px;
+    width: 11%;
+    padding-top: 100px;
+    letter-spacing: 12px;
+    color: #ffff;
+}
+.formUsuarios {
+    background-color: #f1f1f1;
+    width: 60%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    gap: 1vh;
+    color: #f1f1f1;
+    font-size: 30px;
+    border-radius: 25px;
+    color: rgb(7, 0, 0);
+}
+.inputContainer {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 1vh;
+}
+.inputContainer input, select{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    font-size: 20px;
+    border: none;
+    border-bottom: 1px solid rgb(40, 39, 39);
+}
+.btn-respuesta{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    width: 30%;
+    background-color: rgb(8, 2, 2);
+    color: #f1f1f1;
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+    border-radius: 5px;
+    border: 1px solid black;
+    box-shadow: 1px 1px 0px black;
+    font-size: 10px;
+}
+.btn-respuesta:hover{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    transition: 0.8s ease-in-out;
+    background-color: #f1f1f1 ;
+    font-size: 20px;
+    border: 1px solid rgb(8, 2, 2);
+    border-radius: 5px;
+    color:rgb(8, 2, 2) ;
+    font-family: 'Montserrat', sans-serif;
+}
+.contenedorUsuarios {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px
+}
+.user-card {
+    font-size: 25px;
+    background-color: rgb(40, 39, 39);
+    color: white;
+    padding: 10px;
+    width: 400px;
+    border-radius: 25px;
+    }
+    
+    .user-card h2{
+        text-align: center;
+    }
+/*-----------------------Footer----------------------------------*/
+footer{
+    /*margin-top: 4%;*/
+    background-color: var(--azulFondo);
+    height: 10vh;
+    color: whitesmoke;
+    display: flex;
+    /*flex-direction: row;   */
+    justify-content: space-around;
+}
+footer .iconos0{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+footer .iconos{
+    font-size: 30px;
+    color:#0088ff;
+    display: flex;
+    justify-content: space-evenly;
+}
+.iconos i{
+    background-color: whitesmoke;
+}
+footer .pFooterInicio{
+    margin-left: 25%;
+}
+footer .footerSeccionInicial{
+    text-align: center;
+    width: 25%;
+    border-top: 1px solid whitesmoke;
+    margin-top: 20px;
+}
+footer .footerSeccionFinal{
+    width: 25%;
+    text-align: center;
+    border-top: 1px solid whitesmoke;
+    margin-top: 20px;
+}
+@media screen and (max-width: 1600px){
+    .anuncio h2{
+        font-size: 2vw;
+    }
+    .anuncio p{
+        font-size: 60%;
+    }  
+    .formulario{
+        font-size: 2vw;
+    }
+    .formulario input{
+        font-size: 1.5vw;
+    }
+}
+@media screen and (max-width: 650px) {
+    nav, #logo{
+        display: none;
+    }
+    .anuncio{
+        width: 40%;
+        flex-direction: column;
+        justify-content: center;
+        gap: 5vw;
+    }
+    .formulario{
+        width: 40%;
+    }
+    .lista-menu{
+        display: none;
+        list-style-type: none;
+        text-align: center;
+    }
+    .lista-menu li{
+        border: 1px solid blue;
+        background-color: rgb(204, 250, 250);
+    }
+    .lista-menu li a{
+        text-decoration: none;
+        color: black;
+        width: 100%;
+    }
+    .lista-menu li a:hover{
+        background-color: rgb(23, 40, 195);
+        color: whitesmoke;
+    }
+    .btn-menu{
+        display: block;
+    }
+    footer{
+        padding: 0 1vw;
+    }
+    #footer_redes{
+        margin: 0;
+        justify-content: space-evenly;
+    }
+    #footer_redes a{
+        font-size: 4vw;
+    }
+}
+@media screen and (max-width: 450px){
+    main{
+        display: block;
+    }
+    .anuncio{
+        width: 80%;
+        margin: 5vh 5vh;
+        overflow: scroll;
+    }
+    .anuncio h2{
+        font-size: 6vw;
+    }
+    .anuncio p{
+        font-size: 5vw;
+    }
+    .formulario{
+        width: 80%;
+        margin: 5vh 5vh;
+    }
+    
+}
+    
