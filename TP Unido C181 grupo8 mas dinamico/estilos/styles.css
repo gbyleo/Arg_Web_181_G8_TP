@@ -318,11 +318,11 @@ main {
     min-height: 85vh;
 }
 #mainPlanes h1 {
-    font-size: 55px;
+    font-size: 35px;
     text-align: center;
     font-family: 'Montserrat', sans-serif;
     color: #ffff;
-    padding: 1vw;
+   
 }
 #contenedorPlanes {
     display: flex;
@@ -339,26 +339,26 @@ main {
 }
 
 .img_planes_caja1 img {
-    width: 300px;
-    padding: 2vh;
+    width: 270px;
+    padding: 10px;
     border-radius: 30px 25px 30px 25px;
 }
 
 .img_planes_caja2 img {
-    width: 245px;
-    padding: 2vh;
+    width: 217px;
+    padding: 10px;
     border-radius: 30px 25px 30px 25px;
 }
 
 .img_planes_caja3 img {
-    width: 226px;
-    padding: 2vh;
+    width: 200px;
+    padding: 10px;
     border-radius: 30px 25px 30px 25px;
 }
 
 .img_planes_caja4 img {
-    width: 385px;
-    padding: 2vh;
+    width: 351px;
+    padding: 10px;
     border-radius: 30px 25px 30px 25px;
 }
 .formPlanes {
@@ -368,29 +368,29 @@ main {
     display: flex;
     flex-wrap: wrap;
 
-    padding: 5vh;
+    padding: 2vh;
 }
 .formPlanes h2 {
     display: flex;
     flex-wrap: wrap;
     font-family: 'Montserrat', sans-serif;
     text-align: center;
-    font-size: 44px;
+    font-size: 34px;
     width: 11%;
-    padding-top: 100px;
-    letter-spacing: 12px;
+    padding-top: 60px;
+    letter-spacing: 10px;
     color: #ffff;
 }
 .formUsuarios {
     background-color: #f1f1f1;
-    width: 60%;
+    width: 45%;
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
     align-items: center;
-    gap: 1vh;
+   
     color: #f1f1f1;
-    font-size: 30px;
+    font-size: 25px;
     border-radius: 25px;
     color: rgb(7, 0, 0);
 }
@@ -413,7 +413,8 @@ main {
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
-    width: 30%;
+    align-items: center;
+    width: 35%;
     background-color: rgb(8, 2, 2);
     color: #f1f1f1;
     font-weight: bold;
@@ -427,6 +428,7 @@ main {
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
+    align-items: center;
     transition: 0.8s ease-in-out;
     background-color: #f1f1f1 ;
     font-size: 20px;
